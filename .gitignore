@@ -1,13 +1,55 @@
-# Bootstrap
-app/bootstrap*
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.pyc
 
-# Symfony directories
-vendor/*
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
 
-# Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+
+# build script local files
+build/buildinfo.properties
+build/config/buildinfo.properties
+/vendor
+/app/cache
+/app/logs
+/web/bundles
+#/web/bundles/acmedemo
+#/web/bundles/framework
+#/web/bundles/sensiodistribution
+#/web/bundles/webprofiler
+/app/config/parameters.yml
+/composer.lock
+
