@@ -1,7 +1,3 @@
-bommer_blog:
-    resource: "@BommerBlogBundle/Resources/config/routing.yml"
-    prefix:   /
-
 ens_jobeet:
     resource: "@EnsJobeetBundle/Resources/config/routing.yml"
     prefix:   /

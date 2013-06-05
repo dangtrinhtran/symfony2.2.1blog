@@ -16,8 +16,22 @@
         lacus nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
         posuere cubilia Curae.</p>
 	</div>
-
 	
+	<div class="contact-symfony">
+		<form action="{{ path('blogger_blog_contact') }}" method="post" {{ form_enctype(form) }} class="blogger">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.name) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.subject) }}
+        {{ form_row(form.message) }}
+		{{ form_row(form.dueDate) }}
+
+        {{ form_rest(form) }}
+
+				<input type="submit" value="Submit" />
+			</form>
+	</div>
 
 	<hr>
 </div> <!-- /container -->

@@ -1,7 +1,0 @@
-parameters:
-#    bommer_blog.example.class: Bommer\BlogBundle\Example
-
-services:
-#    bommer_blog.example:
-#        class: %bommer_blog.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
